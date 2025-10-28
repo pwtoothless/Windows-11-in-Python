@@ -1,0 +1,25 @@
+{
+  "file_explorer": {
+    "current_path": "/home/user/documents",
+    "rounded_corners_radius": 10,
+    "icon": "assets/file_explorer.jpg"
+  },
+  "web_browser": {
+    "rounded_corners_radius": 15,
+    "icon": "assets/web_browser.jpg"
+  },
+  "paint_app": {
+    "rounded_corners_radius": 8,
+    "icon": "assets/paint_app.jpg"
+  },
+  "start_menu": {
+    "rounded_corners_radius": 12,
+    "icon": "assets/start_icon.jpg"
+  },
+  "taskbar_thickness": 35,
+  "time_format": "24",
+  "timezone": "UTC",
+  "wallpaper": "assets/windows11_wallpaper.jpg",
+  "screen_width": 1280,
+  "screen_height": 720
+}
