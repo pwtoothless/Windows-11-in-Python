@@ -2,6 +2,7 @@ import json
 import os
 import threading
 from datetime import datetime
+import ntplib
 
 # import ntplib
 import pygame
@@ -217,7 +218,7 @@ def get_current_time():
  #def sync_time_with_ntp():
     try:
         client = ntplib.NTPClient()
-        response = client.request('pool.ntp.org', version=3)
+        response = client.request('time.google.com', version=3)
         t = datetime.fromtimestamp(response.tx_time, pytz.utc)
         # Store time in a variable instead of using sudo
         return t.strftime('%Y-%m-%d %H:%M:%S')
